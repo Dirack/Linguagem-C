@@ -1,2 +1,3 @@
-# Linguagem-C
-Estudos em linguagem C do livro de Luis Damas
+# Linguagem C
+
+> Estudos sobre linguagem C, livro de Luis Damas
