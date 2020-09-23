@@ -44,3 +44,5 @@ O nome das funções deverá ser fibIterativa (Para a função iterativa) e fibR
 [Tutorial de como calcular o tempo de execução em c](https://www.geeksforgeeks.org/how-to-measure-time-taken-by-a-program-in-c/)
 
 [Tabela de Fibonacci pré-calculada](http://www.educ.fc.ul.pt/icm/icm99/icm41/os100.htm)
+
+5. Implemente de forma recursiva a função **strcat** que concatena duas strings.
