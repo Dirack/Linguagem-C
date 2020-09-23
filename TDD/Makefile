@@ -14,7 +14,7 @@
 # 
 # Licença: GPL-3.0 <https://www.gnu.org/licenses/gpl-3.0.txt>.
 
-DEP = questao1.x questao2.x questao3.x questao4.x
+DEP = questao1.x questao2.x questao3.x questao4.x questao5.x
 
 test:	$(addprefix test_,$(DEP))
 
