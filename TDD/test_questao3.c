@@ -15,7 +15,7 @@
 */
 
 #include "Unity/unity.h"
-#include "../functions_questao3.h"
+#include "../questao3.h"
 #define PROMPT "Digite um número 2: "
 
 void setUp(){};

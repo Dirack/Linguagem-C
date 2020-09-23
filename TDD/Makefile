@@ -19,5 +19,5 @@ DEP = questao1.x #questao2.x questao3.x
 test:	$(addprefix test_,$(DEP))
 
 %.x:	%.c
-	gcc $< ../$(DEP:.x=.c) ./Unity/unity.c -o $@
+	gcc $< ../$(subst test_,,$<) ./Unity/unity.c -o $@
 	./$@

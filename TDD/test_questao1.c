@@ -15,7 +15,7 @@
 */
 
 #include "Unity/unity.h"
-#include "../functions_questao1.h"
+#include "../questao1.h"
 #include <stdbool.h>
 
 void setUp(void){};
