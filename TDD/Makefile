@@ -16,7 +16,7 @@
 
 DEP = questao1.x #questao2.x questao3.x
 
-all:	$(addprefix test_,$(DEP))
+test:	$(addprefix test_,$(DEP))
 
 %.x:	%.c
 	gcc $< ../$(DEP:.x=.c) ./Unity/unity.c -o $@
