@@ -21,3 +21,4 @@ test:	$(addprefix test_,$(DEP))
 %.x:	%.c
 	gcc $< ../$(subst test_,,$<) ./Unity/unity.c -o $@
 	./$@ < log.txt
+	rm $@
